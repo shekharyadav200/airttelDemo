@@ -1,0 +1,14 @@
+curl -X POST \
+  http://localhost:8080/commonWordFinder \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 87c4a5cf-6dc9-7c4a-7727-50a238ece84e' \
+  -d '{
+    "fileList": [
+        "F:\\test1.txt",
+        "F:\\test2.txt",
+        "F:\\test3.txt"
+        
+        
+    ]
+}'
